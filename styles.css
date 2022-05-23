@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --player-width: 60px;
+    --player-height: 60px;
+    --bg-color: #222;
+    --vertical-margin: var(--vertical-margin, 5vh);
+}
+
+body {
+    background-color: var(--bg-color, #222);
+}
+
+.canvas {
+    width: 800px;
+    height: 90vh;
+    margin: 5vh auto;
+    background-color: #dfdfdf;
+    position: relative;
+}
+
+.player {
+    width: var(--player-width, 60px);
+    height: var(--player-height, 60px);
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.instructions {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ccc;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: var(--vertical-margin, 5vh);
+}

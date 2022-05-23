@@ -1,0 +1,15 @@
+{
+  "name": "js_test_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
