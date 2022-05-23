@@ -18,7 +18,7 @@ NodeJS or any other server to serve **index.html**
 
 Run the following command from a terminal (Not necessary if using a different server than the included with this file)
 
-```npm install``
+```npm install```
 
 ## Run
 
